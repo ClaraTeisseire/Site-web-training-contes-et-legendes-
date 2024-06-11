@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Diplomata+SC&family=Oswald:wght@411&family=Uncial+Antiqua&family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Oswald:wght@411&family=UnifrakturMaguntia&display=swap');
+
+body{
+    font-family: "UnifrakturMaguntia", sans-serif;
+    background: url(background.jpg)  center/cover ;
+    /* VH=100% de la taille de l'écran(viewport height) */
+    min-height: 100vh;
+}
+section{
+    margin: center;
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 4rem;
+/* Les tailles de polices doivent etre en rem */
+    text-shadow: 5px 4px 8px #000000ab;
+    color: #000000;
+    font-family: "Uncial Antiqua", sans-serif;
+}
+.center {
+    text-align: center;
+  }
+  .center img {
+    display: block;
+    margin: 0 auto;
+  }
+h2{
+    text-align: left;
+    line-height: 1.25em;
+    font-size: 2rem;
+   
+    margin: 0;
+    margin-top: 30px;
+    margin-right: 435px;
+    margin-bottom: 0px;
+    margin-left: 120px;
+    
+}
+
+h3{ text-align: left;
+    line-height: 1.35em;
+    font-size: 2rem;
+    margin: 0;
+    margin-top: -519px;
+    margin-right: 60px;
+    margin-bottom: 800px;
+    margin-left: 485px;
+}
+.flexbox h2 span {
+    text-transform: uppercase;
+}
+
+ul{
+    font-size: 1.75rem;
+    margin: 0;
+    margin-top: -800px;
+    margin-right: 40px;
+    margin-bottom: 800px;
+    margin-left: 500px;
+}
+
+ul li:last-child::after {
+    content: 'X';
+    text-transform: uppercase;
+}
+h4{
+    font-family: "Uncial Antiqua", sans-serif;
+    font-size: 1.25rem;
+}
+main{
+    height: 650px;
+    width:60% ;
+    background: url(2.0.png) no-repeat center/cover ;
+    /* Centrer boite */
+    margin: 0 auto;
+
+    /* border: 2px solid black; 
+    box-shadow: 0 0 20px 5px #f5ed06e8; */
+    padding: 30px;  
+}
+img{
+    margin: center;
+    
+      
+}
+h6{font-family: "Uncial Antiqua", sans-serif;
+    text-align: center;
+    color: rgb(235, 82, 255);
+    font-size: 5rem;
+
+}
