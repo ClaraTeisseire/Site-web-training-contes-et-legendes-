@@ -1,0 +1,47 @@
+body {
+    background: url(../../trianing_ptoject/images/Merci\ ilklust.jfif) no-repeat center/cover;
+    min-height: 100vh;
+    margin: 0;
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le corps */
+}
+video{
+    width: 100%;
+}
+
+h1
+{
+    font-family: Pacifico;
+    text-align: center;
+    font-size: 18rem;
+    margin-top: 50px;
+    color: rgb(179, 0, 195)
+}
+img
+{
+    height: 200px;
+    width: 250px;
+}
+.Licorne1
+{
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+.Licorne2
+{
+    position: absolute;
+    top: 450px;
+    left: 20px;
+}
+.Arcenciel2
+{
+    position: absolute;
+    top: -10px;
+    left: 150px;
+}
+.Arcenciel1
+{
+    position: absolute;
+    top: 450px;
+    right: 200px;
+}

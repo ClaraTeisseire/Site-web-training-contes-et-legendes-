@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Diplomata+SC&family=Oswald:wght@411&family=Uncial+Antiqua&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Oswald:wght@411&family=UnifrakturMaguntia&display=swap');
+
+
+table{ 
+    border-spacing:20% ;
+    margin-bottom: 100px; /* Ajoute une marge en bas de chaque tableau */
+    
+}
+table th, table td {
+    font-size: 3rem; /* Vous pouvez ajuster la taille du texte selon vos besoins */
+    text-align: center;
+    
+}
+    
+body{
+    background: url(../../trianing_ptoject/images/def\ reset2.jpg)  center;
+    background-position: contain;
+    /* VH=100% de la taille de l'écran(viewport height) */
+    min-width: 100vh;
+    background-color: #000a1b;
+    padding: 140px 0;
+    font-family: "Uncial Antiqua", sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: -1%;
+    letter-spacing: 12px;
+    font-size: 7rem;
+    color: #f6f8ff;
+    text-shadow: 0 0 20px #0059ff;
+    font-family: "UnifrakturMaguntia", sans-serif;
+}
+h2{
+    letter-spacing: 5px;
+    text-align: center;
+    color: #00043a;
+    font-size: 3rem;
+    
+}
+th a {
+    font-size: 3.5rem; /* Taille de police plus grande pour les liens dans les cellules th */
+    /* Ajoutez d'autres styles au besoin */
+}
+h3{
+    letter-spacing: 5px;
+    text-align: center;
+    color: #00043a;
+    font-size: 3rem;
+}
+h4{
+    letter-spacing: 5px;
+    text-align: center;
+    color: #00043a;
+    font-size: 3rem;
+}
+
+tbody{
+    height: 100%;
+}
+section a:last-of-type {
+    /* Styles spécifiques pour le dernier lien */
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font-size: 3rem;
+    /* Ajoutez d'autres styles au besoin */
+}
