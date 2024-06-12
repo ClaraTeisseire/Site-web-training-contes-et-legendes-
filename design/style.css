@@ -1,9 +1,11 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Diplomata+SC&family=Oswald:wght@411&family=Uncial+Antiqua&family=UnifrakturMaguntia&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Oswald:wght@411&family=UnifrakturMaguntia&display=swap');
+*/
 
 body{
-    font-family: "UnifrakturMaguntia", sans-serif;
+    /*font-family: "UnifrakturMaguntia", sans-serif;*/
     background: url(../../trianing_ptoject/images/background.jpg)  center/cover ;
     /* VH=100% de la taille de l'écran(viewport height) */
     min-height: 100vh;
