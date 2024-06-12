@@ -5,7 +5,7 @@
 
 body{
     font-family: "UnifrakturMaguntia", sans-serif;
-    background: url(../../trianing_ptoject/images/background.jpg)  center/cover ;
+    background: url(../images/background.jpg)  center/cover ;
     /* VH=100% de la taille de l'écran(viewport height) */
     min-height: 100vh;
 }

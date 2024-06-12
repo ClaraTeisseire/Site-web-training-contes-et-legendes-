@@ -14,7 +14,7 @@ table th, table td {
 }
     
 body{
-    background: url(../../trianing_ptoject/images/Mtdef1.jpg) no-repeat  center/cover ;
+    background: url(../images/Mtdef1.jpg) no-repeat  center/cover ;
     /* VH=100% de la taille de l'écran(viewport height) */
     min-width: 100vh;
     background-color: #000a1b;
@@ -23,8 +23,9 @@ body{
 }
 h1{
     text-align: center;
-    letter-spacing: 12px;
-    font-size: 12rem;
+    margin-top: -1%;
+    letter-spacing: 11px;
+    font-size: 7rem;
     color: #ffffff;
     text-shadow: 0 0 20px #653aff;
     font-family: "UnifrakturMaguntia", sans-serif;
@@ -34,29 +35,29 @@ th a {
     /* Ajoutez d'autres styles au besoin */
 }
 h2{
-    margin-inline-start: 10%;
-    margin-inline-end: 10%;
+    margin-inline-start: 3%;
+    margin-inline-end: 3%;
     letter-spacing: 5px;
     text-align: center;
     color:  #800020;
-    font-size: 4rem;
+    font-size: 3rem;
     
 }
 h3{
-    margin-inline-start: 10%;
-    margin-inline-end: 10%;
+    margin-inline-start: 3%;
+    margin-inline-end: 3%;
     letter-spacing: 5px;
     text-align: center;
     color: #800020;
-    font-size: 4em;
+    font-size: 3em;
 }
 h4{
-    margin-inline-start: 10%;
-    margin-inline-end: 10%;
+    margin-inline-start: 3%;
+    margin-inline-end: 3%;
     letter-spacing: 5px;
     text-align: center;
     color: #800020;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 tbody{

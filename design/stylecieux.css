@@ -14,11 +14,11 @@ table th, table td {
 }
     
 body{
-    background: url(../../trianing_ptoject/images/def\ reset2.jpg)  center;
+    background: url(../images/def\ reset2.jpg)  center;
     background-position: contain;
     /* VH=100% de la taille de l'écran(viewport height) */
-    min-width: 100vh;
-    background-color: #000a1b;
+   min-width: 90vh;
+    /*background-color: #000a1b;*/
     padding: 140px 0;
     font-family: "Uncial Antiqua", sans-serif;
 }
@@ -65,4 +65,9 @@ section a:last-of-type {
     text-align: center;
     font-size: 3rem;
     /* Ajoutez d'autres styles au besoin */
+}
+
+.imgPh {
+   
+
 }

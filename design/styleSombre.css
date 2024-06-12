@@ -14,7 +14,7 @@ table th, table td {
 }
     
 body{
-    background: url(../../trianing_ptoject/images/rosie-sun-1L71sPT5XKc-unsplash.jpg) no-repeat  center/cover ;
+    background: url(../images/rosie-sun-1L71sPT5XKc-unsplash.jpg) no-repeat  center/cover ;
     /* VH=100% de la taille de l'écran(viewport height) */
     min-width: 100vh;
     background-color: #000a1b;

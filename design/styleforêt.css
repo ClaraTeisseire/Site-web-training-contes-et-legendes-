@@ -15,7 +15,7 @@ table th, table td {
 }
     
 body{
-    background: url(../../trianing_ptoject/images/paysage-naturel-lavande-numerique\ 333333333333p.jpg) no-repeat center/cover ;
+    background: url(../images/paysage-naturel-lavande-numerique\ 333333333333p.jpg) no-repeat center/cover ;
     background-position: contain;
     /* VH=100% de la taille de l'écran(viewport height) */
     min-width: 100vh;

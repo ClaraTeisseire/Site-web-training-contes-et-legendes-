@@ -14,7 +14,7 @@ table th, table td {
 }
     
 body{
-    background: url(../../trianing_ptoject/images/poisson....jpg) no-repeat  center/cover ;
+    background: url(../images/poisson....jpg) no-repeat  center/cover ;
     /* VH=100% de la taille de l'écran(viewport height) */
     min-width: 100vh;
     background-color: #000a1b;
@@ -24,7 +24,7 @@ body{
 h1{
     text-align: center;
     letter-spacing: 12px;
-    font-size: 7rem;
+    font-size: 6rem;
     color: #ffffff;
     text-shadow: 0 0 20px #df00eb;
     font-family: "UnifrakturMaguntia", sans-serif;
