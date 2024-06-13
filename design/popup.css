@@ -1,0 +1,44 @@
+.popup .overlay {
+    position: fixed; /*l'overlay restera en place même si l'utilisateur fait défiler la page.*/
+    top:0px;
+    left: 0px;
+    width: 50vw; /*viewport width*/
+    height: 10vh;
+    background: #000000b3;
+   /*l'overlay se trouve au-dessus du contenu de la page principale*/
+    display:none;
+}
+.popup .content {
+    position: absolute; /*Cela permet de placer précisément l'élément n'importe où dans le conteneur parent.*/
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%)scale(0);/* centre l'élément .content par rapport à son conteneur parent.scale(0) : Cette partie réduit l'élément à 0% de sa taille normale, le rendant ainsi invisible.*/
+    background : #fff;
+    width:450px;
+    height: 220px;
+    z-index:2;/*Cela garantit que le contenu de la popup est au-dessus de l'overlay.*/
+    text-align: center;
+    padding:20px;
+    box-sizing: border-box;
+}
+.popup .close-btn{
+    position: absolute;
+    right:20px;
+    width:30px;
+    height:30px; /*Cela crée un carré de 30x30 pixels.*/
+    background:#222;
+    color:#fff;
+    font-size:25px;
+    font-weight: 600; /* texte plus épais et plus visible.*/
+    line-height: 30px;/*Cela donne à l'élément un aspect de bouton rond.*/
+    text-align: center;
+    border-radius: 50%;
+}
+.popup.active .overlay{
+    display:block; /*affichage*/
+}
+
+.popup.active .content{
+    transition:all 300ms ease-in-out;/*animation douce de 300 millisecondes.*/
+    transform: translate(-50%, -50%)scale(0);
+}

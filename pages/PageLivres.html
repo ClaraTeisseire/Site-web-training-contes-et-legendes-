@@ -5,9 +5,71 @@
 		<title>Livres de Contes et Légendes</title>
 		<link rel="stylesheet" href="../design/Livres.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rye&family=UnifrakturMaguntia">
+<style>
+        /* Styles pour la popup */
+        .popup {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            display: none; /* Masqué par défaut */
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5); /* Overlay semi-transparent */
+        }
 
+        .popup.active {
+            display: flex; /* Afficher la popup quand active */
+        }
+
+        .popup .content {
+            position: relative;
+            background: #fff;
+            width: 450px;
+            height: 320px;
+            z-index: 2;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            transition: transform 0.3s ease-in-out;
+            transform: translate(-50%, -50%) scale(0); /* Masqué initialement */
+            top: 50%;
+            left: 50%;
+        }
+
+        .popup.active .content {
+            transform: translate(-235%, -220%) scale(1);
+         /* Affiché quand active */
+        }
+
+        .popup .close-btn {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 30px;
+            height: 30px;
+            background: #222;
+            color: #fff;
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 30px;
+            text-align: center;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    </style>
 	</head>
 	<body>
+
+		<div class="popup" id="popup-1">
+			<div class="content">
+				<div class="close-btn" onclick="togglePopup()">&times;</div>
+				<h1>Commentaire envoyé</h1>
+				<p id="commentTest">N'hésitez pas à proposer d'autres livres intéressants si vous en connaissez d'autres</p>
+			</div>
+		</div>
+
 		<h1>EXEMPLES DE LIVRES</h1>
 		<h2>Contes et légendes</h2>
 		<p>Les contes et légendes sont très nombreux, et il serait impossible de tous les citer ou les lister dans une seule page Web. C'est pourquoi nous vous proposons dès maintenant de consulter ces livres, qui pourraient vous plaire et vous renseigner davantage sur plusieurs autres contes et légendes, certains non traités dans ce site. Vous n'avez qu'à cliquer sur le livre qui vous plaît pour aller l'acheter !</p>
@@ -101,13 +163,16 @@
 				cols="30" 
 				rows="10"
 				placeholder="Laissez un commentaire !"
+				id="commentaire"
 			></textarea>
 			</center>
 			<div class="btn-submit">
 				<li>
-					<a href="PageMerci.html" target="_blank">Valider</a>
+					<a  target="_blank"  onclick="togglePopup()">Valider</a>
 				</li>
 			</div>
 		</form>
+
+		<script src="index.js"></script>
 	</body>
 </html>
